@@ -206,3 +206,28 @@ a:active {
     margin: 0px;
     padding: 10px 0px 10px 0px;
 }
+
+hr {
+    border: none;
+    height: 2px;
+    color: black;
+    background: black;
+    padding: 0;
+    height: 0;
+    border-top: medium solid black;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+    width: 70%;
+}
+
+hr:after {
+    font-family: "Times New Roman", serif;
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5rem;
+    padding: 0 0.25em;
+    background: transparent;
+    color: black;
+}
