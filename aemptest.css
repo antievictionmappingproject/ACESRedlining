@@ -56,6 +56,17 @@ h2 {
     max-width: 60%;
 }
 
+#biblio .title {
+    font-size: 1.5rem;
+}
+
+#biblio .textcontent {
+    font-size: .8rem;
+    text-align: left;
+    height: auto;
+    max-width: 70%;
+}
+
 #gentrif {
     max-width: 60%;
     margin: 5px 10px;
